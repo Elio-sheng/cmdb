@@ -1,10 +1,10 @@
 package admin_auth
 
 import (
-	"github.com/wannanbigpig/gin-layout/internal/model"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/errors"
-	"github.com/wannanbigpig/gin-layout/internal/resources"
-	"github.com/wannanbigpig/gin-layout/internal/service"
+	"gin-cmdb/internal/model"
+	"gin-cmdb/internal/pkg/errors"
+	"gin-cmdb/internal/resources"
+	"gin-cmdb/internal/service"
 )
 
 // AdminUserService 授权服务

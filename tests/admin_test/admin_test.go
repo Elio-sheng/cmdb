@@ -2,12 +2,12 @@ package admin_test
 
 import (
 	"fmt"
+	c "gin-cmdb/config"
+	"gin-cmdb/internal/global"
+	"gin-cmdb/internal/pkg/utils/token"
+	"gin-cmdb/pkg/utils"
+	"gin-cmdb/tests"
 	"github.com/golang-jwt/jwt/v5"
-	c "github.com/wannanbigpig/gin-layout/config"
-	"github.com/wannanbigpig/gin-layout/internal/global"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/utils/token"
-	"github.com/wannanbigpig/gin-layout/pkg/utils"
-	"github.com/wannanbigpig/gin-layout/tests"
 	"net/http/httptest"
 	"net/url"
 	"testing"

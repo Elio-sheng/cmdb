@@ -1,7 +1,7 @@
 package admin_v1
 
 import (
-	"github.com/wannanbigpig/gin-layout/internal/controller"
+	"gin-cmdb/internal/controller"
 )
 
 type CommonController struct {

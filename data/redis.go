@@ -2,8 +2,8 @@ package data
 
 import (
 	"context"
+	c "gin-cmdb/config"
 	"github.com/go-redis/redis/v8"
-	c "github.com/wannanbigpig/gin-layout/config"
 )
 
 var Rdb *redis.Client

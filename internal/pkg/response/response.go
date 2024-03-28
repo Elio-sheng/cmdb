@@ -1,9 +1,9 @@
 package response
 
 import (
+	"gin-cmdb/config"
+	"gin-cmdb/internal/pkg/errors"
 	"github.com/gin-gonic/gin"
-	"github.com/wannanbigpig/gin-layout/config"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/errors"
 	"net/http"
 	"time"
 )

@@ -1,6 +1,9 @@
 package validator
 
 import (
+	"gin-cmdb/internal/pkg/errors"
+	log "gin-cmdb/internal/pkg/logger"
+	r "gin-cmdb/internal/pkg/response"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/locales/en"
@@ -9,9 +12,6 @@ import (
 	"github.com/go-playground/validator/v10"
 	enTranslations "github.com/go-playground/validator/v10/translations/en"
 	zhTranslations "github.com/go-playground/validator/v10/translations/zh"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/errors"
-	log "github.com/wannanbigpig/gin-layout/internal/pkg/logger"
-	r "github.com/wannanbigpig/gin-layout/internal/pkg/response"
 	"go.uber.org/zap"
 	"reflect"
 	"regexp"

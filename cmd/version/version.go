@@ -2,8 +2,8 @@ package version
 
 import (
 	"fmt"
+	"gin-cmdb/internal/global"
 	"github.com/spf13/cobra"
-	"github.com/wannanbigpig/gin-layout/internal/global"
 )
 
 var (

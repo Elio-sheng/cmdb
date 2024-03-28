@@ -1,6 +1,8 @@
 package main
 
-import "github.com/wannanbigpig/gin-layout/cmd"
+import (
+	"gin-cmdb/cmd"
+)
 
 func main() {
 	cmd.Execute()

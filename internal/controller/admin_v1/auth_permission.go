@@ -1,11 +1,11 @@
 package admin_v1
 
 import (
+	"gin-cmdb/internal/controller"
+	"gin-cmdb/internal/service/admin_auth"
+	"gin-cmdb/internal/validator"
+	"gin-cmdb/internal/validator/form"
 	"github.com/gin-gonic/gin"
-	"github.com/wannanbigpig/gin-layout/internal/controller"
-	"github.com/wannanbigpig/gin-layout/internal/service/admin_auth"
-	"github.com/wannanbigpig/gin-layout/internal/validator"
-	"github.com/wannanbigpig/gin-layout/internal/validator/form"
 )
 
 type PermissionController struct {

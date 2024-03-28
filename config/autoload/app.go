@@ -1,8 +1,8 @@
 package autoload
 
 import (
-	"github.com/wannanbigpig/gin-layout/pkg/convert"
-	"github.com/wannanbigpig/gin-layout/pkg/utils"
+	"gin-cmdb/pkg/convert"
+	"gin-cmdb/pkg/utils"
 )
 
 type AppConfig struct {

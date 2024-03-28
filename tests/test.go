@@ -1,13 +1,13 @@
 package tests
 
 import (
+	"gin-cmdb/config"
+	"gin-cmdb/data"
+	"gin-cmdb/internal/pkg/logger"
+	"gin-cmdb/internal/routers"
+	"gin-cmdb/internal/validator"
+	"gin-cmdb/pkg/utils"
 	"github.com/gin-gonic/gin"
-	"github.com/wannanbigpig/gin-layout/config"
-	"github.com/wannanbigpig/gin-layout/data"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/logger"
-	"github.com/wannanbigpig/gin-layout/internal/routers"
-	"github.com/wannanbigpig/gin-layout/internal/validator"
-	"github.com/wannanbigpig/gin-layout/pkg/utils"
 	"io"
 	"net/url"
 	"strings"

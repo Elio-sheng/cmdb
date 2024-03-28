@@ -1,11 +1,11 @@
 package config
 
 import (
+	. "gin-cmdb/config/autoload"
+	utils2 "gin-cmdb/internal/pkg/utils"
+	"gin-cmdb/pkg/utils"
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"
-	. "github.com/wannanbigpig/gin-layout/config/autoload"
-	utils2 "github.com/wannanbigpig/gin-layout/internal/pkg/utils"
-	"github.com/wannanbigpig/gin-layout/pkg/utils"
 	"io"
 	"os"
 	"path/filepath"

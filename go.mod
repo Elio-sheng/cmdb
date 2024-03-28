@@ -1,4 +1,4 @@
-module github.com/wannanbigpig/gin-layout
+module gin-cmdb
 
 go 1.18
 

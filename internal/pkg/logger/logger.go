@@ -1,9 +1,9 @@
 package logger
 
 import (
+	"gin-cmdb/config"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	"github.com/natefinch/lumberjack"
-	"github.com/wannanbigpig/gin-layout/config"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"io"

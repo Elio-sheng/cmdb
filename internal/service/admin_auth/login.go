@@ -1,11 +1,11 @@
 package admin_auth
 
 import (
-	c "github.com/wannanbigpig/gin-layout/config"
-	"github.com/wannanbigpig/gin-layout/internal/model"
-	e "github.com/wannanbigpig/gin-layout/internal/pkg/errors"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/utils/token"
-	"github.com/wannanbigpig/gin-layout/internal/service"
+	c "gin-cmdb/config"
+	"gin-cmdb/internal/model"
+	e "gin-cmdb/internal/pkg/errors"
+	"gin-cmdb/internal/pkg/utils/token"
+	"gin-cmdb/internal/service"
 	"time"
 )
 

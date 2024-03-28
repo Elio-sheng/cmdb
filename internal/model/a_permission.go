@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/wannanbigpig/gin-layout/internal/resources"
+	"gin-cmdb/internal/resources"
 	"gorm.io/gorm/clause"
 )
 

@@ -2,9 +2,9 @@ package middleware
 
 import (
 	"bytes"
+	"gin-cmdb/config"
+	log "gin-cmdb/internal/pkg/logger"
 	"github.com/gin-gonic/gin"
-	"github.com/wannanbigpig/gin-layout/config"
-	log "github.com/wannanbigpig/gin-layout/internal/pkg/logger"
 	"go.uber.org/zap"
 	"time"
 )

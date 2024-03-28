@@ -1,9 +1,9 @@
 package model
 
 import (
-	"github.com/wannanbigpig/gin-layout/data"
-	"github.com/wannanbigpig/gin-layout/internal/global"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/utils"
+	"gin-cmdb/data"
+	"gin-cmdb/internal/global"
+	"gin-cmdb/internal/pkg/utils"
 	"gorm.io/gorm"
 	"gorm.io/plugin/soft_delete"
 )

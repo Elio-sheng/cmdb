@@ -2,14 +2,14 @@ package cmd
 
 import (
 	"fmt"
+	"gin-cmdb/cmd/command"
+	"gin-cmdb/cmd/cron"
+	"gin-cmdb/cmd/server"
+	"gin-cmdb/cmd/version"
+	"gin-cmdb/config"
+	"gin-cmdb/internal/global"
+	"gin-cmdb/internal/pkg/logger"
 	"github.com/spf13/cobra"
-	"github.com/wannanbigpig/gin-layout/cmd/command"
-	"github.com/wannanbigpig/gin-layout/cmd/cron"
-	"github.com/wannanbigpig/gin-layout/cmd/server"
-	"github.com/wannanbigpig/gin-layout/cmd/version"
-	"github.com/wannanbigpig/gin-layout/config"
-	"github.com/wannanbigpig/gin-layout/internal/global"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/logger"
 	"os"
 )
 
@@ -18,8 +18,7 @@ var (
 		Use:          "cmdb",
 		Short:        "cmdb",
 		SilenceUsage: true,
-		Long: `Gin framework is used as the core of this project to build a scaffold, 
-based on the project can be quickly completed business development, out of the box 📦`,
+		Long:         `Gin Cmdb`,
 		PersistentPreRun: func(cmd *cobra.Command, args []string) {
 			// 1、初始化配置
 			config.InitConfig(configPath)

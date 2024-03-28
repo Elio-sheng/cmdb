@@ -2,9 +2,9 @@ package cron
 
 import (
 	"fmt"
+	log "gin-cmdb/internal/pkg/logger"
 	"github.com/robfig/cron/v3"
 	"github.com/spf13/cobra"
-	log "github.com/wannanbigpig/gin-layout/internal/pkg/logger"
 	"time"
 )
 

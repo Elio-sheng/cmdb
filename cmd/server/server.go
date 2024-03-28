@@ -2,12 +2,12 @@ package server
 
 import (
 	"fmt"
+	"gin-cmdb/data"
+	"gin-cmdb/internal/model"
+	"gin-cmdb/internal/routers"
+	"gin-cmdb/internal/validator"
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/cobra"
-	"github.com/wannanbigpig/gin-layout/data"
-	"github.com/wannanbigpig/gin-layout/internal/model"
-	"github.com/wannanbigpig/gin-layout/internal/routers"
-	"github.com/wannanbigpig/gin-layout/internal/validator"
 	"strings"
 	"time"
 )

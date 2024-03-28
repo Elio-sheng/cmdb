@@ -1,10 +1,10 @@
 package controller
 
 import (
+	"gin-cmdb/internal/pkg/errors"
+	log "gin-cmdb/internal/pkg/logger"
+	r "gin-cmdb/internal/pkg/response"
 	"github.com/gin-gonic/gin"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/errors"
-	log "github.com/wannanbigpig/gin-layout/internal/pkg/logger"
-	r "github.com/wannanbigpig/gin-layout/internal/pkg/response"
 	"go.uber.org/zap"
 )
 

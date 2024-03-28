@@ -2,10 +2,10 @@ package command
 
 import (
 	"fmt"
+	"gin-cmdb/data"
+	"gin-cmdb/internal/console/demo"
+	"gin-cmdb/internal/routers"
 	"github.com/spf13/cobra"
-	"github.com/wannanbigpig/gin-layout/data"
-	"github.com/wannanbigpig/gin-layout/internal/console/demo"
-	"github.com/wannanbigpig/gin-layout/internal/routers"
 )
 
 var (
@@ -26,7 +26,7 @@ var (
 )
 
 func init() {
-	Cmd.AddCommand(demo.DemoCmd)
+	Cmd.AddCommand(demo.Cmd)
 }
 
 func run() error {

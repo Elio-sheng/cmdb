@@ -2,10 +2,10 @@ package admin_test
 
 import (
 	"fmt"
+	e "gin-cmdb/internal/pkg/errors"
+	"gin-cmdb/internal/pkg/response"
+	"gin-cmdb/pkg/utils"
 	"github.com/stretchr/testify/assert"
-	e "github.com/wannanbigpig/gin-layout/internal/pkg/errors"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/response"
-	"github.com/wannanbigpig/gin-layout/pkg/utils"
 	"net/http"
 	"net/url"
 	"strings"

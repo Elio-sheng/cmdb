@@ -1,11 +1,11 @@
 package routers
 
 import (
+	"gin-cmdb/config"
+	"gin-cmdb/internal/middleware"
+	"gin-cmdb/internal/pkg/errors"
+	response2 "gin-cmdb/internal/pkg/response"
 	"github.com/gin-gonic/gin"
-	"github.com/wannanbigpig/gin-layout/config"
-	"github.com/wannanbigpig/gin-layout/internal/middleware"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/errors"
-	response2 "github.com/wannanbigpig/gin-layout/internal/pkg/response"
 	"io"
 	"net/http"
 )

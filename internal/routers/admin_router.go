@@ -1,10 +1,10 @@
 package routers
 
 import (
+	controller "gin-cmdb/internal/controller"
+	admin_v1 "gin-cmdb/internal/controller/admin_v1"
+	"gin-cmdb/internal/middleware"
 	"github.com/gin-gonic/gin"
-	controller "github.com/wannanbigpig/gin-layout/internal/controller"
-	admin_v1 "github.com/wannanbigpig/gin-layout/internal/controller/admin_v1"
-	"github.com/wannanbigpig/gin-layout/internal/middleware"
 )
 
 func SetAdminApiRoute(e *gin.Engine) {

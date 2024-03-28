@@ -1,7 +1,7 @@
 package data
 
 import (
-	c "github.com/wannanbigpig/gin-layout/config"
+	c "gin-cmdb/config"
 	"sync"
 )
 

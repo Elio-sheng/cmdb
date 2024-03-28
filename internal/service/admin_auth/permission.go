@@ -1,11 +1,11 @@
 package admin_auth
 
 import (
-	"github.com/wannanbigpig/gin-layout/internal/model"
-	e "github.com/wannanbigpig/gin-layout/internal/pkg/errors"
-	"github.com/wannanbigpig/gin-layout/internal/resources"
-	"github.com/wannanbigpig/gin-layout/internal/service"
-	"github.com/wannanbigpig/gin-layout/internal/validator/form"
+	"gin-cmdb/internal/model"
+	e "gin-cmdb/internal/pkg/errors"
+	"gin-cmdb/internal/resources"
+	"gin-cmdb/internal/service"
+	"gin-cmdb/internal/validator/form"
 	"strings"
 )
 

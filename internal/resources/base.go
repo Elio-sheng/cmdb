@@ -1,7 +1,7 @@
 package resources
 
 import (
-	"github.com/wannanbigpig/gin-layout/internal/global"
+	"gin-cmdb/internal/global"
 	"math"
 )
 

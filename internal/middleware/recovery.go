@@ -3,11 +3,11 @@ package middleware
 import (
 	"errors"
 	"fmt"
+	"gin-cmdb/config"
+	e "gin-cmdb/internal/pkg/errors"
+	"gin-cmdb/internal/pkg/logger"
+	"gin-cmdb/internal/pkg/response"
 	"github.com/gin-gonic/gin"
-	"github.com/wannanbigpig/gin-layout/config"
-	e "github.com/wannanbigpig/gin-layout/internal/pkg/errors"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/logger"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/response"
 	"net/http"
 	"strings"
 )

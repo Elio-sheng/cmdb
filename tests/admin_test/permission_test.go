@@ -2,9 +2,9 @@ package admin_test
 
 import (
 	"fmt"
+	e "gin-cmdb/internal/pkg/errors"
+	"gin-cmdb/internal/pkg/response"
 	"github.com/stretchr/testify/assert"
-	e "github.com/wannanbigpig/gin-layout/internal/pkg/errors"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/response"
 	"net/http"
 	"net/url"
 	"testing"
@@ -13,7 +13,7 @@ import (
 func TestPermissionEdit(t *testing.T) {
 	route := fmt.Sprintf("%s/api/v1/permission/edit", ts.URL)
 
-	body := `{"id":6,"name":"ping","desc":"","method":"GET","route":"/ping","func":"func1","func_path":"github.com/wannanbigpig/gin-layout/internal/routers.SetRouters.func1","is_auth":2,"sort":100}`
+	body := `{"id":6,"name":"ping","desc":"","method":"GET","route":"/ping","func":"func1","func_path":"gin-cmdb/internal/routers.SetRouters.func1","is_auth":2,"sort":100}`
 	resp := postRequest(route, &body)
 
 	assert.Nil(t, resp.Error)

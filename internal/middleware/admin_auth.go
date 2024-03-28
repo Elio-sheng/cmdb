@@ -2,14 +2,14 @@ package middleware
 
 import (
 	"fmt"
+	"gin-cmdb/config"
+	"gin-cmdb/internal/global"
+	e "gin-cmdb/internal/pkg/errors"
+	"gin-cmdb/internal/pkg/response"
+	"gin-cmdb/internal/pkg/utils/token"
+	"gin-cmdb/internal/service/admin_auth"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/wannanbigpig/gin-layout/config"
-	"github.com/wannanbigpig/gin-layout/internal/global"
-	e "github.com/wannanbigpig/gin-layout/internal/pkg/errors"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/response"
-	"github.com/wannanbigpig/gin-layout/internal/pkg/utils/token"
-	"github.com/wannanbigpig/gin-layout/internal/service/admin_auth"
 	"strconv"
 	"time"
 )
